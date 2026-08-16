@@ -1,0 +1,30 @@
+main {
+  display: grid;
+  justify-items: center;
+  gap: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #646cff;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #535bf2;
+}
+
+button:focus-visible {
+  outline: 3px solid #aeb2ff;
+  outline-offset: 3px;
+}
